@@ -1,4 +1,4 @@
-const playerSelection = prompt("What is your choice?");
+const playerSelection = prompt("What is your choice?").toLowerCase();
 const computerSelection = getComputerChoice();
 
 function getComputerChoice() {
